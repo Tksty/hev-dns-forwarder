@@ -39,6 +39,3 @@ $(BUILDDIR)/%.o : $(SRCDIR)/%.c
 	@echo -n "Building $< ... " && $(CC) $(CCFLAGS) -c -o $@ $< && echo "OK"
  
 -include $(DEPEND)
-
-build:
-    @echo -n "Copying $(TARGET) to build directory ... " && mkdir -p build && cp $(TARGET) build/ && echo "OK"
