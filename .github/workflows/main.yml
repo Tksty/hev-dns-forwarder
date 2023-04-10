@@ -35,7 +35,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: polipo-armv7
-        path: hev-dns-forwarder/polipo
+        path: hev-dns-forwarder/hev-dns-forwarder
 
     - name: Build Makefile for ARMv8A
       run: |
@@ -46,4 +46,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: polipo-armv8a
-        path: hev-dns-forwarder/polipo
+        path: hev-dns-forwarder/hev-dns-forwarder
