@@ -16,7 +16,7 @@ jobs:
 
     - name: Clone polipo repository
       run: |
-        git clone https://github.com/aa65535/hev-dns-forwarder.git
+        git clone https://github.com/Tksty/hev-dns-forwarder.git
 
     - name: Install Android NDK
       run: |
